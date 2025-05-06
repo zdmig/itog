@@ -1004,6 +1004,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Заметки</catalogs>
   <documents>Document.ВозвратОтКлиента</documents>
   <documents>Document.ЗаказКлиента</documents>
   <documents>Document.ЗаказПоставщику</documents>

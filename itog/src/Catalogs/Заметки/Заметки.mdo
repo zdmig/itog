@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a175506-37f9-4299-8679-e7ce2119a9ae">
+  <producedTypes>
+    <objectType typeId="c6c7d507-e0df-4b13-ba11-b09ba0cd0097" valueTypeId="47e63d28-1c3e-4cb0-ac0c-94eb79ebd71b"/>
+    <refType typeId="dc6fcb04-280c-484a-a9b8-4a0bbf0e6982" valueTypeId="3f759d82-cc70-4ce0-a658-212c37c01988"/>
+    <selectionType typeId="cf772663-e21a-433a-ae9e-06b746be5bf6" valueTypeId="6ff1cee8-00c4-46d2-8d2c-34e03d0e6e20"/>
+    <listType typeId="bf3ccd93-5e5e-4c01-bb66-baf352eedac1" valueTypeId="5172fe44-039a-422d-8379-ade0f58616f4"/>
+    <managerType typeId="05271123-0e13-46ac-b472-1641c11f6ba0" valueTypeId="b25e7938-c0d6-4ac4-88ef-fa330e7a2a55"/>
+  </producedTypes>
+  <name>Заметки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заметки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Заметки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Заметки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заметка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заметки</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
