@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263c65e9-112e-4f76-bad9-377b71db664e">
+  <producedTypes>
+    <containerType typeId="8625a04f-3dfe-47f2-a78b-81210f9b33ad" valueTypeId="fa965429-c2ae-4d3b-95fe-a72251806810"/>
+  </producedTypes>
+  <name>Процент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

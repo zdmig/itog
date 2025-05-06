@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d9b4184-3a96-4247-816f-3da3e34c9b8c">
+  <name>Расчетчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетчик</value>
+  </synonym>
+  <comment>Расчет зарплаты и управление персоналом</comment>
+</mdclass:Role>

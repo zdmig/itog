@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e582ffa-376f-4c5c-9efc-d1857319fa47">
+  <producedTypes>
+    <selectionType typeId="5c698c7f-fdc8-4e40-9ecb-e4654439bd9c" valueTypeId="0485bebe-e733-4ba4-acb4-4c54e12af1c2"/>
+    <listType typeId="6f7e5361-8909-42c9-83ca-a41d7561283b" valueTypeId="88176773-82de-4818-90c6-9473948e3b00"/>
+    <managerType typeId="d3b830bd-03ae-423e-9008-e0c46b164aa4" valueTypeId="3e6babfb-f8c8-450e-8173-97ffd40b9b4d"/>
+    <recordSetType typeId="cb7f385c-5a32-400e-9fe2-558011872e6b" valueTypeId="1d3676b8-5fc7-4aba-9830-3d0e526af06a"/>
+    <recordKeyType typeId="d10fc75e-b595-43c0-8ca8-f5ac7dd3c91c" valueTypeId="2781969d-257d-456f-bed4-a429b2daa99a"/>
+    <recordType typeId="2caa0f28-04ad-4832-b04b-21e55e00eba4" valueTypeId="caf8e35b-1652-4c42-b638-1c367277c668"/>
+    <recordManagerType typeId="d0a8942d-3003-4e0f-b039-e0f408f02774" valueTypeId="a9259333-ca89-471e-aab3-cf5ad57be4ca"/>
+  </producedTypes>
+  <name>ИсторияИзмененийМетодаСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений метода списания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИсторияИзмененийМетодаСписания.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="c466b42c-3b99-4c9b-a93f-c8a236558385">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d00e06df-788f-468c-b253-860701c0e208">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыСписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ad1a31f3-a38e-4106-9490-7c042e4da264">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aefa2ab-ec79-4067-b8e8-21c13f4d0445">
+  <name>ПодсистемаКазначейство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема казначейство</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e9070f5-8b95-46cf-b110-379d2f38b34a">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>InformationRegister.ОкладыСотрудников</content>
+  <content>InformationRegister.ГрафикиРаботы</content>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ДополнительныеНачисления</content>
+  <parentSubsystem>Subsystem.ЗарплатаИКадры</parentSubsystem>
+</mdclass:Subsystem>

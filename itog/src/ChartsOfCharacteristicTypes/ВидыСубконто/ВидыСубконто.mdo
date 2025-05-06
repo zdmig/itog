@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="085f0bf2-4b1f-49a7-bd80-5566a306903d">
+  <producedTypes>
+    <objectType typeId="9829c480-ac58-41c4-aa49-5333812dbb3e" valueTypeId="9c449c44-2fca-40b7-9f7d-64f46dfd33c2"/>
+    <refType typeId="73378ff2-714a-445e-83e7-8e5897b4119f" valueTypeId="f5aaec3a-2c47-4d5c-a245-dd08bb92cd4a"/>
+    <selectionType typeId="5639548a-87cb-4e54-8502-c1adb1ad3e7f" valueTypeId="59d6c606-3f6f-4330-93a6-744493dbe22e"/>
+    <listType typeId="686291bd-6226-49df-8094-346c4258f202" valueTypeId="fbb52d7f-9172-4cd4-8b80-d115d6f0df0d"/>
+    <managerType typeId="467be09a-172c-439c-beb4-fbf642ac87c9" valueTypeId="2ae4519f-58c3-4cc7-a951-f31ada3fb1c4"/>
+    <containerType typeId="423d62f3-d522-40a5-a02f-b114dca15d6b" valueTypeId="b7134644-e247-4550-beac-2393fdb7f72e"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.СчетаОрганизации</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.Договоры</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="814a94bb-167b-48e4-95aa-57ca42e6e713">
+      <name>Договоры</name>
+      <description>Договоры</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.Договоры</types>
+      </type>
+    </items>
+    <items id="2b29a18d-77c0-4e8a-b532-ce122ff5ad03">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="da4b2361-c1cc-4fcd-aec9-bd9e7b5fb410">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="012cb3a0-4fb4-4d95-8297-193fe3d4b921">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="c0726420-383e-490d-8292-4cefbb2bc830">
+      <name>СчетОрганизации</name>
+      <description>Счет организации</description>
+      <code>000000006</code>
+      <type>
+        <types>CatalogRef.СчетаОрганизации</types>
+      </type>
+    </items>
+    <items id="c9abba4d-db77-4997-be25-a9f6ab57eb91">
+      <name>Характеристики</name>
+      <description>Характеристики</description>
+      <code>000000003</code>
+      <type>
+        <types>DocumentRef.ПоступлениеТоваров</types>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

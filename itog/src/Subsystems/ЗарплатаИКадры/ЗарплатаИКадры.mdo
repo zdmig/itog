@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d334241-4627-4f61-98d7-a1cb07ff2ad4">
+  <name>ЗарплатаИКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и кадры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаЗарплатаИКадры</picture>
+  </picture>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>Report.НачисленияСотрудникам</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

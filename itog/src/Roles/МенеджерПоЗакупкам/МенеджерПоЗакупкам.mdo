@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e62f9597-c377-4cba-9c9f-a404f67efb98">
+  <name>МенеджерПоЗакупкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер по закупкам</value>
+  </synonym>
+</mdclass:Role>

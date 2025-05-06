@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5f39518-69e9-4799-997b-a0f4055d4bf7">
+  <name>ПересчетыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчеты клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

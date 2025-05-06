@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a4afa8f-2e6d-48e8-8b13-f31fb4058682">
+  <name>ТМЦИМестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТМЦ и места хранения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>Catalog.Подразделения</content>
+  <parentSubsystem>Subsystem.Администрирование.Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

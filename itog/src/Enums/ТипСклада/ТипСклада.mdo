@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f10a7c1-7a0f-4c26-9380-31942b97327b">
+  <producedTypes>
+    <refType typeId="ebf2a508-6342-4b01-8b44-30e14d3abf22" valueTypeId="a8713b1c-d90a-47de-bb31-0667561fe2a3"/>
+    <listType typeId="f92f305d-0c40-4992-ba68-e6dc0da20254" valueTypeId="62abb370-6ef3-46ab-bd6e-5816f1974172"/>
+    <managerType typeId="2cc3ba98-5381-462b-ac82-0f9b0a6b5cbd" valueTypeId="965048be-70a1-4fc3-8475-79865b304494"/>
+  </producedTypes>
+  <name>ТипСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип склада</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b210e07-0fe3-4df3-b6ed-57d23cae8ad1">
+    <name>Сырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65954f9d-b06f-4d93-88bf-db9461573826">
+    <name>ПрочиеНеСырьевыеТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие не сырьевые товары</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

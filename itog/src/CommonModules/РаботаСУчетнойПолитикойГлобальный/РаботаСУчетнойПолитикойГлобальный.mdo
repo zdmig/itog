@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2feb10da-8914-4cbe-88bb-8a1b012e4306">
+  <name>РаботаСУчетнойПолитикойГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с учетной политикой глобальный</value>
+  </synonym>
+  <global>true</global>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0db4b5b6-2a37-4765-9cc4-754f2b27cfb0">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Банк</subsystems>
+  <subsystems>ТМЦИМестаХранения</subsystems>
+  <subsystems>Прочее</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>
