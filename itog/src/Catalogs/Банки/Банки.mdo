@@ -10,7 +10,7 @@
   <name>Банки</name>
   <synonym>
     <key>ru</key>
-    <value>Банки</value>
+    <value>Банки1</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
